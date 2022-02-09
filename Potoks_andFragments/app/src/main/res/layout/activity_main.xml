@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/button_fragment"
+        android:name="com.example.potoks_andfragments.ButtonFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        tools:layout="@layout/button_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/image_fragment"
+        android:name="com.example.potoks_andfragments.ImageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/image_fragment">
+
+
+    </fragment>
+
+</LinearLayout>
